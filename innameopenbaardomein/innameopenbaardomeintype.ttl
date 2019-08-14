@@ -1,0 +1,29 @@
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+
+<https://data.vlaanderen.be/id/conceptscheme/innameopenbaardomeintype>
+    a skos:ConceptScheme ;
+    skos:prefLabel "Concept scheme public domain occupancy type"@en ;
+    skos:definition "Concept scheme for expressing the type of public domain occupancy."@en .
+    skos:definition "Codelijst voor het type van openbaar domein inname."@nl .
+
+<https://data.vlaanderen.be/id/concept/innameopenbaardomeintype/grondwerken>
+    a skos:Concept ;
+	skos:prefLabel "grondwerken" ;
+    skos:definition "TODO" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/innameopenbaardomeintype> ;
+    skos:topConceptOf <https://data.vlaanderen.be/id/conceptscheme/innameopenbaardomeintype>
+    skos:narrower <https://data.vlaanderen.be/id/concept/innameopenbaardomeintype/wegeniswerken> .
+
+<https://data.vlaanderen.be/id/concept/innameopenbaardomeintype/wegeniswerken>
+    a skos:Concept ;
+    skos:prefLabel "wegeniswerken" ;
+    skos:definition "TODO" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/innameopenbaardomeintype> .
+
+<https://data.vlaanderen.be/id/concept/innameopenbaardomeintype/spoorwerken>
+    a skos:Concept ;
+    skos:prefLabel "spoorwerken" ;
+    skos:definition "TODO" ;
+    skos:inscheme <https://data.vlaanderen.be/id/conceptscheme/innameopenbaardomeintype> .
+
